@@ -219,6 +219,15 @@ header {
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.34);
 }
 
+
+.header_nav_bar ul li > a {
+  color: white;
+}
+
+.hader_logo > a{
+  display:block;
+}
+
 /* Header End */
 
 /* Main Slide Section */
