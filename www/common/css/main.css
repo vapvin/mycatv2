@@ -643,6 +643,27 @@ section {
   background-color: #ffffff;
 }
 
+.list_section {
+  width: 1920px;
+  height: 1000px;
+  background: #fff;
+}
+
+.list_container {
+  width: 1080px;
+  height: 730px;
+  margin: 0 auto;
+
+}
+
+.list_main {
+  width: 100%;
+}
+
+th,td {
+  text-align: center;
+  height: 40px;
+}
 
 /* Footer Start */
 
