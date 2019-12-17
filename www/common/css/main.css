@@ -912,6 +912,29 @@ td > a {
   font-weight: 300;
 }
 
+/* Sub Write */
+
+.edit_btn {
+  width: 1080px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit_btn > a {
+  float: none;
+  width: 160px !important;
+  height: 50px !important;
+  border-radius: 5px;
+  margin: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.edit_btn > a:first-child {
+  background: #d0d0d0;
+}
+
 /* Footer Start */
 
 footer {
