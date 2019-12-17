@@ -654,19 +654,50 @@ section {
 
 .list_section {
   width: 1920px;
-  height: 1000px;
+  height: 1200px;
   background: #fff;
 }
 
 .list_container {
   width: 1080px;
-  height: 700px;
+  height: 900px;
   margin: 0 auto;
 
 }
 
 .list_main {
   width: 100%;
+}
+
+.list_title {
+  width: 1080px;
+  height: 45px;
+  background-color: #FFF9E6;
+  margin-bottom: 30px;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.list_title > a {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 124px;
+  color: black;
+  font-size: 20px;
+  height: 100%;
+}
+
+
+.list_title > a:hover {
+  color: #fc9400;
+  border-bottom: 3px solid #fc9400;
+}
+
+.list_title > a:first-child {
+  color: #fc9400;
+  border-bottom: 3px solid #fc9400;
 }
 
 thead {
@@ -684,7 +715,7 @@ tr {
 th,td {
   text-align: center;
   height: 15px;
-  padding: 12px 0;
+  padding: 15px 0;
   font-size: 16px;
   color: #353535;
 }
