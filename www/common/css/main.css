@@ -935,6 +935,76 @@ td > a {
   background: #d0d0d0;
 }
 
+/* Sub Gallery List */
+
+.gallery_section {
+  height: 1500px;
+}
+
+.sub_gallery_area {
+  width: 1080px;
+  height: 1170px;
+  border-top: 4px solid #d4d4d4;
+  border-bottom: 4px solid #d4d4d4;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.gallery_items {
+  width: 266px;
+  height: 276px;
+  border: 1px solid #d4d4d4;
+}
+
+.galler_img {
+  width: 100%;
+  height: 187px;
+}
+
+.gallery_text {
+  width: 100%;
+  height: 80px;
+  padding: 13px 20px 10px;
+  border-top: 1px solid #d4d4d4;
+}
+
+.gallery_text > p:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 11px;
+
+}
+
+.gallery_text > p:first-child > span:first-child {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fc9400;
+}
+
+.gallery_text > p:first-child > span:nth-child(2) {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fc3500;
+}
+
+.gallery_text > p:nth-child(2) {
+  font-size: 16px;
+  text-align: left;
+  color: #353535;
+  margin-bottom: 5px;
+}
+
+.gallery_text > span {
+  float: right;
+  color: #b7b7b7;
+  font-size: 14px;
+  font-weight: 500;
+}
+
 /* Footer Start */
 
 footer {
